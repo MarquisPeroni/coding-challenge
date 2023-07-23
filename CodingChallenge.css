@@ -1,0 +1,85 @@
+@font-face{
+    font-family: oceanWide;
+    src:url(../resources/fonts/Oceanwide-Semibold.otf)
+}
+
+
+body { 
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;   
+    font-family: oceanWide;     
+}
+
+.contenitore{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5%;
+    width: 60%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+
+#logo{
+    display: block;
+margin: 10px auto;
+max-height: 130px;
+}
+
+.intro {
+    color: rgb(54, 255, 47);
+    text-align: center;
+}
+    
+.navbar{
+    box-sizing: border-box;
+    background-color: rgb(54, 255, 47);
+    height: 40px;
+    width: 100%; 
+    text-align: center; 
+    display: flex;       
+}  
+
+.button{
+    margin: auto auto;
+    display: block;
+}
+
+.Testo  {
+color: white ;
+margin-top: 30px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.biglabel {
+    font-size: x-large;
+}   
+
+.orangebar {
+    background-color: rgba(230, 173, 69, 0.973);
+    width: 30%;
+}
+
+.greenbar {
+    background-color: rgb(17, 133, 17);
+    width: 55%;
+}
+
+.redbar {
+    background-color: rgb(228, 69, 69);
+    width: 15%;
+}
+
+.progressbar {
+    height: 30px;
+    border-radius: 5px;
+}
+
